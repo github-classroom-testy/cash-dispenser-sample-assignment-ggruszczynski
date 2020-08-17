@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "compile",
+      "setup": "",
+      "run": "g++ -std=c++17 main.cpp -o program  ",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "run tests",
+      "setup": "",
+      "run": "g++ -std=c++17 test_suite.cpp -o test_suite  && test_suite --success",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
